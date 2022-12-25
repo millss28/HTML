@@ -1,0 +1,30 @@
+line-height: adds space between lines
+
+text-align: aligns text like google docs(left right center)
+
+font-family: text font
+
+font-size: size of font
+
+font-style: change styles of text
+
+font-weight: how bold font is
+
+color: color of font
+
+background-color: color of whole text box
+
+margin: have to set margins to zero because paragraphs come with defaults,
+        margin adds space outside of element(top,left,bottom,right)
+
+width: the width determines what goes onto a new line, width of text box
+
+cursor: adds cursor when mouse over text
+
+text-decoration: additional style for text (underline)
+
+<strong>= bold
+
+<u>= underline
+
+<span>= flexible

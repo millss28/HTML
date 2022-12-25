@@ -1,0 +1,88 @@
+body
+{
+    padding-bottom: 1000px;
+}
+.first-container
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.first-box1
+{
+    background-color: aqua;
+}
+
+.first-box2
+{
+    background-color: pink;
+}
+
+.second-container
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.second-box1
+{
+    background-color: pink;
+    flex: 1;
+}
+
+.second-box2
+{
+    background-color: aqua;
+    width: 100px;
+}
+
+.second-box3
+{
+    background-color: pink;
+   flex: 2;
+}
+
+.third-container
+{
+    display: flex;
+    flex-direction: row;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    height: 70px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.third-box1
+{
+    background-color: aqua;
+    width: 100px;
+}
+
+.third-box2
+{
+    background-color: pink;
+    width: 100px;
+}
+
+.third-box3
+{
+    background-color: aqua;
+    width: 100px;
+}
+.fourth-container
+{
+    display: flex;
+    flex-direction: row;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    height: 70px;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+

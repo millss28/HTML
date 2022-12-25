@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>
+    Notes
+ </title>
+</head>
+<body>
+    <style>
+        body
+        {
+            background-image: url(../Notes/Background/joy.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        .header
+        {
+            display: grid;
+            grid-template-columns: 133px 133px 133px 133px 133px 133px 133px 133px 133px 133px 133px 133px 133px 133px;
+            background-color: #091f36;
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 140px;
+            z-index: 1;
+
+
+        }
+        .sidebar
+        {
+            background-color: #091f36;
+            position: fixed;
+            top: 0px;
+            left: 0;
+            bottom: 0;
+            width: 160px;
+
+        }
+        section
+        {
+            margin-left: 165px;
+        }
+        .grid
+        {
+           
+            margin-top: 250px;
+            display: grid;
+            grid-template-columns: 700px 704px;
+            column-gap: 200px;
+            row-gap: 10px;
+            justify-content:space-around;
+            position: fixed;
+            
+        }
+        .gridbox
+        {
+            background-image: url(../Notes/Background/anime.jpg);
+            background-repeat: no-repeat;
+            height: 700px;
+            width: 500px;
+            margin-left: 10px;
+            position: relative;
+            margin-left: 88px;
+            justify-content: stretch;
+        }
+        .quote
+        {
+            background-color: #091f36;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 25px;
+            text-align: center;
+            color: #dcdcdc; 
+            height: 90px;
+            width: 404px;
+            position: absolute;
+            margin-left: 585px;
+            justify-content: center;
+        }
+        .logo-boxes
+        {
+            width: 124px;
+        }
+        .nike
+        {
+            height: 138px;
+            border-color: #091f36;
+            width: 124px;
+            background-color: #091f36;
+     
+        }
+        .nike:active
+        {
+            background-image: url(../Notes/logos/nike.jpg);
+        }
+        .apple
+        {
+            height: 138px;
+            border-color: #091f36;
+            width: 124px;
+            background-color: #091f36;
+        }
+        .apple:active
+        {
+            background-image: url(../Notes/logos/apple.png);
+           
+        }
+        .overwatch
+        {
+            height: 138px;
+            border-color: #091f36;
+            width: 124px;
+            background-color: #091f36;
+        }
+        .overwatch:active
+        {
+            background-image: url(../Notes/logos/overwatch2.jpg);
+
+        }
+        .gymshark
+        {
+            height: 138px;
+            border-color: #091f36;
+            width: 124px;
+            background-color: #091f36;
+        }
+        .gymshark:active
+        {
+            background-image: url(../Notes/logos/b8e2674e3c0bfeee3709210f273d085d.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+
+        }
+        .adidas
+        {
+            height: 138px;
+            border-color: #091f36;
+            width: 124px;
+            background-color: #091f36;
+        }
+        .adidas:active
+        {
+            background-image: url(../Notes/logos/addidas.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+
+        }
+        .xbox
+        {
+            height: 138px;
+            border-color: #091f36;
+            width: 124px;
+            background-color: #091f36;
+        }
+        .xbox:active
+        {
+            background-image: url(../Notes/logos/xbox.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+
+        }
+        .twitter
+        {
+            height: 138px;
+            border-color: #091f36;
+            width: 124px;
+            background-color: #091f36;
+        }
+        .twitter:active
+        {
+            background-image: url(../Notes/logos/twitter.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+
+        }
+        .instagram
+        {
+            height: 138px;
+            border-color: #091f36;
+            width: 124px;
+            background-color: #091f36;
+        }
+        .instagram:active
+        {
+            background-image: url(../Notes/logos/instagram.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .ps5
+        {
+            height: 138px;
+            border-color: #091f36;
+            width: 124px;
+            background-color: #091f36;
+        }
+        .ps5:active
+        {
+            background-image: url(../Notes/logos/ps5.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .best
+        {
+            height: 138px;
+            border-color: #091f36;
+            width: 124px;
+            background-color: #091f36;
+        }
+        .best:active
+        {
+            background-image: url(../Notes/logos/Best.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .goog
+        {
+            height: 138px;
+            border-color: #091f36;
+            width: 124px;
+            background-color: #091f36;
+        }
+        .goog:active
+        {
+            background-image: url(../Notes/logos/goog.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .net
+        {
+            height: 138px;
+            border-color: #091f36;
+            width: 124px;
+            background-color: #091f36;
+        }
+        .net:active
+        {
+            background-image: url(../Notes/logos/net.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .nfl
+        {
+            height: 138px;
+            border-color: #091f36;
+            width: 124px;
+            background-color: #091f36;
+        }
+        .nfl:active
+        {
+            background-image: url(../Notes/logos/nfl.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .audi
+        {
+            height: 138px;
+            border-color: #091f36;
+            width: 124px;
+            background-color: #091f36;
+        }
+        .audi:active
+        {
+            background-image: url(../Notes/logos/audi.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .topic
+        {
+            background-color: #091f36;
+            border-color: white;
+           border-style: solid;
+           height: 560px;
+           width: 350px;
+           margin-left: 80px;
+           margin-top: 80px;
+        }
+        .this-text
+        {
+            color: #dcdcdc;
+        }
+        progress
+        {
+            width: 200px;
+            height: 50px;
+        }
+        details
+        {
+            cursor: pointer;
+            color: #dcdcdc;
+        }
+           
+    </style>
+    
+    <div class="header">
+            <div class="logo-boxes">
+                <button class="nike">
+                   
+                </button>
+                
+            </div>
+            <div class="logo-boxes">
+                <button class="apple">
+                   
+                </button>
+                
+            </div>
+            <div class="logo-boxes">
+                <button class="overwatch">
+                   
+                </button>
+            </div>
+            <div class="logo-boxes">
+                <button class="gymshark">
+                   
+                </button>
+            </div>
+            <div class="logo-boxes">
+                <button class="adidas">
+                   
+                </button>
+            </div>
+            <div class="logo-boxes">
+                <button class="xbox">
+                   
+                </button>
+            </div>
+            <div class="logo-boxes">
+                <button class="twitter">
+                   
+                </button>
+            </div>
+            <div class="logo-boxes">
+                <button class="instagram">
+                   
+                </button>
+            </div>
+            <div class="logo-boxes">
+                <button class="ps5">
+                   
+                </button>
+            </div>
+            <div class="logo-boxes">
+                <button class="best">
+                   
+                </button>
+            </div>
+            <div class="logo-boxes">
+                <button class="goog">
+                   
+                </button>
+                
+            </div>
+            <div class="logo-boxes">
+                <button class="net">
+                   
+                </button>
+            </div>
+            <div class="logo-boxes">
+                <button class="nfl">
+                   
+                </button>
+            </div>
+            <div class="logo-boxes">
+                <button class="audi">
+                   
+                </button>
+            </div>
+
+
+    </div>
+    <div class="sidebar-main">
+        <div class="sidebar">
+
+        </div>
+    </div>
+    <section contenteditable>
+        <div class="grid" >
+            <div class="gridbox">
+                <div class="topic">
+                    <input type="text" list="suggestions" size="45px" placeholder="Search Cars.." style="margin-top: 20px;">
+                    <datalist id="suggestions">
+                        <option>mercedes</option>
+                        <option>tesla</option>
+                        <option>ford</option>
+                        <option>gmc</option>
+                        <option>volkswagon</option>
+                        <option>lambo</option>
+                        <option>ferrari</option>
+                        <option>audi</option>
+
+                    </datalist>
+                    <progress value="19" max="20">
+
+                    </progress>
+                    <details>
+
+                    <p style="color:white; ">
+                        this text is editable 
+                    </p>
+                </details>
+
+        
+                </div>
+            </div>
+            <div class="gridbox">
+
+            </div>
+            <div class="quote">
+                Continuous effort, not strength is the key to unlocking our potential
+            </div>
+            </div>
+    </section>
+</body>
+</html>

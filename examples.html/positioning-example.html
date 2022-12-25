@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<body style="padding-bottom:2000px;">
+    <style>
+        .header
+        {
+            height: 100px;
+            background-color: blue;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+        }
+        .sidebar
+        {
+            background-color: red;
+            width: 100px;
+            position: fixed;
+            top: 100px;
+            left: 0px;
+            bottom: 0px;
+        }
+        section
+        {
+           
+            margin-left: 110px;
+        }
+        .grid
+       {
+        display: grid;
+        border-color: black;
+        border-style: solid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 10px;
+        row-gap: 10px;
+        justify-content: space-between;
+       }
+        .grid-box
+        {
+            width: 200px;
+            height: 200px;
+            background-color: gray;
+        }
+    </style>
+    <div class="header">
+        This is the header
+    </div>
+    <div class="sidebar">
+        this is the sidebar
+
+    </div>
+    <section style="margin-top: 110px;">
+        <p style="border-color: red;border-style:solid;"
+        >
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae sapiente odio porro consequuntur numquam nostrum ipsam, eveniet earum labore nisi a illum laborum vel iure temporibus veritatis dolor quas molestiae?
+        </p>
+
+    </section>
+    <section>
+        <div class="grid">
+            <div class="grid-box" style="position: relative;">
+                <div style="border-color: green;border-style: solid;height: 50px;
+                width: 50px; position: absolute; left: 0; bottom: 0; height: 190px;">
+                    hello
+                </div>
+             
+            </div>
+
+            <div class="grid-box">
+     
+            </div>
+            <div class="grid-box">
+     
+            </div>
+            <div class="grid-box">
+     
+            </div>
+            <div class="grid-box">
+     
+            </div>
+            <div class="grid-box">
+     
+            </div>
+         </div>
+         
+         <div class="grid">
+            <div class="grid-box">
+             
+            </div>
+            <div class="grid-box">
+     
+            </div>
+            <div class="grid-box">
+     
+            </div>
+            <div class="grid-box">
+     
+            </div>
+            <div class="grid-box">
+     
+            </div>
+            <div class="grid-box">
+                <div style="border-color: black; border-style: solid;
+                height: 100px;">
+                    
+                </div>
+                <div style="border-color: aqua;border-style: solid;height: 90px; width: 100px;display: inline-block;"
+                >
+
+                </div>
+                <div style="border-color: red; border-style: solid; height: 50px; width:30px;display: inline-block;">
+                    <img src="../Header/icons/ted-talk.jpg" style="height: 50px; width: 30px;">
+
+                </div>
+     
+            </div>
+         </div>
+
+    </section>
+    
+       
+
+   
+    
+    
+</body>
+</html>

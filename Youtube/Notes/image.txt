@@ -1,0 +1,15 @@
+object-fit- fits image into desire demensions. 
+    (contain-fits image)(cover-empashises one side)
+
+object-position- emphasizes the side of the image that is shown. (left, right)
+
+display: inline block= element only takes up the space it needs to
+     not entire line 
+
+display-block = element takes up entire line
+
+border-width = width of border
+
+border-style = whether the border is one solid color or not (solid, normal)
+
+border-color= color of border

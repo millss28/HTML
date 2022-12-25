@@ -1,0 +1,6 @@
+div= containter for other elements
+
+grid-template-colomns= how many colomns and size of colomons/divs=rows
+     more divs than colomns then goes to next line
+
+1fr- free space relative to other colomons

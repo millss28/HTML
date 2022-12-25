@@ -1,0 +1,21 @@
+flexbox - flexible not as rigid as grid (headers, sidebars)
+
+display: set to flex for flexbox
+
+flex: take up remaining space relative to other elements (like fr)
+
+flex-direction: sets the kind of layout (row, column)
+
+flex-shrink: prevents a shrinking when closing window (0)
+
+width: shrinks when closing window
+
+justify-content: horizontal postioning of boxes (start,end,space-between)
+
+align items: vertical positioning of boces (start end)
+
+background-color: color of flexbox box
+
+height: height of flexbox box
+
+border-color: coloe of border

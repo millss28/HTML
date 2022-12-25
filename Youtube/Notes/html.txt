@@ -1,0 +1,23 @@
+HTML - Creates visual elements (rendering)
+
+Standard style
+<!Doctype html>
+<html> 
+    <head>
+    </head>
+    <body>
+    </body>
+</html>
+.Name-button= class atribute that allows link
+
+
+<button> - creates button element
+
+padding- adds space on inside
+
+margin-direction=  space between margins
+
+flex-box=  you can use align items to center
+    flex align items is vertical positioning
+
+    flex-box= justify-content aligns horizontal positioning

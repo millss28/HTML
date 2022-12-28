@@ -1,0 +1,100 @@
+@import url(https://fonts.google.com/specimen/Cutive+Mono?query=cuti);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto Serif', serif;
+}
+body
+{
+    background-color: #c2cad0 ;
+}
+
+.big-container
+{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 140px;
+    border-bottom: 2px solid #7ba4c2;
+    justify-content: space-between;
+    background-color: #7395ae;
+    
+}
+
+.big-container .icon
+{
+   
+    width: 250px;
+}
+
+.big-container .icon li
+{
+    margin-top: 30px;
+}
+.big-container .icon li a
+{
+    margin-left: 80px;
+}
+.big-container .icon li a .fas
+{
+    font-size: 90px;
+    color: #474b4f;
+    
+}
+.big-container .info{
+    
+ 
+    width: 350px;
+    justify-content: space-between;
+    padding-top: 70px;
+    display: flex; 
+    margin-right: 160px;
+    
+   
+}
+.big-container .info  li
+{
+    list-style: none;
+    display: inline-block;
+    background-color: #7395ae;
+    border-right: 2px solid #7ba4c2;
+    padding-right:30px;
+    margin-right: 5px;
+    
+}
+.big-container .info  li a
+{
+   
+    color: #474b4f;
+    font-size: 50px;
+    text-decoration: none;
+    
+   
+}
+.big-container .info :hover
+{
+    color: #7ba4c2;
+   
+}
+
+.big-container .main-title
+{
+  
+    
+    margin-top: 50px;
+    font-family: 'Roboto Serif', serif;
+    font-size: 70px;
+    color: #474b4f;
+    display: block;
+    margin-left: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+

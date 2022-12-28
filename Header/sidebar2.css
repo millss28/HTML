@@ -1,0 +1,54 @@
+@import url(https://fonts.google.com/specimen/Roboto+Serif?query=roboto+https://fonts.google.com/specimen/Roboto+Serif?query=roboto+s);
+
+.sideb-container
+{
+    
+    display: flex;
+    position: relative;
+    margin-top: 140px;
+   
+}
+.sideb-container .tabs
+{ background: #7395ae;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+   border-right: 2px solid #7ba4c2;
+   
+}
+.sideb-container .tabs h2
+{
+    font-size: 45px;
+   color: #474b4f;
+    font-family: 'Roboto Serif', serif; 
+    text-align: center;
+    padding-bottom: 20px;
+    
+   
+}
+.sideb-container .tabs li
+{
+   padding-top: 12.5px;
+   border-top: 1px solid #7ba4c2;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+
+}
+.sideb-container .tabs li a
+{
+    display: block;
+    color: #474b4f;
+    text-decoration: none;
+    font-size: 30px;
+    padding-bottom: 12.5px;
+}
+.sideb-container .tabs li a .fas
+{
+    width: 60px;
+    padding-left: 10px;
+}
+.sideb-container .tabs li:hover
+{
+    background-color: #7ba4c2;
+}

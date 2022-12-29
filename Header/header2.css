@@ -65,7 +65,6 @@ body
     border-right: 2px solid #7ba4c2;
     padding-right:30px;
     margin-right: 5px;
-    
 }
 .big-container .info  li a
 {
@@ -90,7 +89,7 @@ body
     font-family: 'Roboto Serif', serif;
     font-size: 70px;
     color: #474b4f;
-    display: block;
+    display: inline-block;
     margin-left: 50px;
     padding-right: 10px;
     padding-left: 10px;

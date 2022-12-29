@@ -4,8 +4,10 @@
 {
     
     display: flex;
-    position: relative;
-    margin-top: 140px;
+    position: fixed;
+    top: 140px;
+    left: 0;
+    bottom: 0;
    
 }
 .sideb-container .tabs

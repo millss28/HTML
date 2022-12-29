@@ -1,0 +1,14 @@
+  
+      .grid-container
+      {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        border: solid black;
+        height: 100px;
+     
+      }
+      section
+      {
+        margin-left: 280px;
+        margin-top: 500px;
+      }

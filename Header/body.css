@@ -20,6 +20,20 @@
     width: 800px;
     font-size: 22px;
   }
+  .bolded
+  {
+    font-weight: bold;
+  }
+  .a
+  {
+    margin-left: 20px;
+    display: list-item;
+  }
+  .html-tags{
+    list-style:inside ;
+    font-size: 18px;
+    margin-top: 3px;
+  }
   .middle-section
   {
    
